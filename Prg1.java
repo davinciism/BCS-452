@@ -9,9 +9,7 @@ import java.util.Scanner;
 public class Prg1 { 
 
     static Scanner sc = new Scanner(System.in);
-
     public static void main(String[] args) {
-
 
         int ch = 0;
 
@@ -72,9 +70,11 @@ public class Prg1 {
         }while(i!=0);
        
     }
+
     static int sum(int a, int b){
         return a+b;
     }
+
     static boolean isPrime(int a){
         int count = 0;
         if(a<=1)
@@ -88,6 +88,7 @@ public class Prg1 {
         }
         return true;
     }   
+    
     static void display(){
         System.out.println("Menu: ");
         System.out.println("1. Add a and b");
