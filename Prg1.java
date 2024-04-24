@@ -3,7 +3,6 @@
 // b. Swapping of 2 numbers
 // c. To check whether a number is prime or not
 
-import java.util.*;
 import java.util.Scanner;
 
 public class Prg1 { 
