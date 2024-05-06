@@ -18,6 +18,10 @@ class StudentsInAClass{
         System.out.println("Name : "+this.name);
         System.out.println("Roll Number. : "+this.rollno);
     }
+
+    static void displayTotalStudents(){
+        System.out.println("Total Students : "+ count);
+    }
 }
 
 public class Prg3a {
@@ -33,7 +37,7 @@ public class Prg3a {
         StudentsInAClass std4 = new StudentsInAClass("Mehak Singh");
         std4.display();
         System.out.println("");
-        System.out.println("Total Students : "+ std4.count);
+        StudentsInAClass.displayTotalStudents();
     }
 }
 
