@@ -38,6 +38,7 @@ public class Prg3a {
         std4.display();
         System.out.println("");
         StudentsInAClass.displayTotalStudents();
+        //Since the method is static we can call it directly without needing to create an object and referencing it.
     }
 }
 
